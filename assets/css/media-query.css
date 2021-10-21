@@ -1,0 +1,89 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero-sec {
+    padding-bottom: 5rem;
+  }
+
+  .title-box__bg {
+    font-size: 15rem;
+    top: -19rem;
+  }
+
+  .title-box__text {
+    font-size: 4rem;
+    line-height: 3rem;
+    top: -9rem;
+
+  }
+
+  .video-box {
+    margin-top: 0;
+  }
+
+  .img-box {
+    top: 0;
+    transform: translate(0, -5%);
+  }
+
+  .img-box .hero-img {
+    transform: scale(1);
+  }
+
+  .fixed-social {
+    display: none;
+  }
+
+  .service-sec .card {
+    padding: 1rem;
+    min-height: 120px;
+  }
+
+  .service-sec .col-md-2 {
+    margin-right: .5rem !important;
+  }
+
+  .titlebox-2 h2 {
+    font-size: 2.5rem;
+  }
+
+  .agency-card .card-img-overlay .card-title {
+    font-size: 1rem;
+  }
+
+  .join-team--right {
+    padding: 0;
+  }
+
+  .join-team--right .card-title {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-slide .card {
+    width: 100%;
+  }
+
+  .testimonial-slide .card .card-body {
+    width: 100%;
+    padding: 1.5rem 1rem;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
